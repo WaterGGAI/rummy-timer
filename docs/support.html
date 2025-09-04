@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支援中心 - Rummy Timer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1, h2 { color: #2c3e50; }
+        .back-link { 
+            margin-bottom: 20px;
+            display: inline-block;
+            color: #007AFF;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #e3f2fd;
+            border-radius: 8px;
+        }
+        .back-link:hover {
+            background: #bbdefb;
+        }
+        .faq { 
+            background: #f8f9fa; 
+            padding: 20px; 
+            border-radius: 12px; 
+            margin: 15px 0;
+            border-left: 4px solid #007AFF;
+        }
+        .faq h3 {
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+        .contact-section {
+            background: #e8f5e8;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            border-left: 4px solid #4caf50;
+        }
+        .quick-start {
+            background: #fff3e0;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 4px solid #ff9800;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .feature-item {
+            background: #f0f8ff;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .contact-method {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+            transition: border-color 0.3s ease;
+        }
+        .contact-method:hover {
+            border-color: #007AFF;
+        }
+        .contact-method a {
+            color: #007AFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← 返回首頁</a>
+        
+        <h1>📞 支援中心</h1>
+        <p>歡迎來到 Rummy Timer 支援中心！我們在這裡協助您解決任何問題。</p>
+
+        <div class="quick-start">
+            <h2>🚀 快速開始</h2>
+            <p><strong>第一次使用 Rummy Timer？</strong>按照以下步驟快速上手：</p>
+            <ol>
+                <li>開啟應用程式，點擊「設定」調整計時器時間</li>
+                <li>在「玩家」頁面添加參與遊戲的玩家</li>
+                <li>返回主畫面，點擊「開始」即可開始計時</li>
+                <li>時間到了會有聲音和視覺提醒</li>
+                <li>點擊「下一位」切換到下一位玩家</li>
+            </ol>
+        </div>
+        
+        <h2>❓ 常見問題</h2>
+        
+        <div class="faq">
+            <h3>如何設定計時器時間？</h3>
+            <p>在主畫面點擊「設定」按鈕，您可以：</p>
+            <ul>
+                <li>調整基本計時時間（30-300秒）</li>
+                <li>設定30秒提醒（橙色警告）</li>
+                <li>設定10秒提醒（紅色警告）</li>
+                <li>選擇提醒聲音和震動</li>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h3>如何管理玩家？</h3>
+            <p>在「玩家」頁面中：</p>
+            <ul>
+                <li><strong>添加玩家</strong>：點擊「+」按鈕，輸入玩家名稱</li>
+                <li><strong>編輯名稱</strong>：點擊玩家名稱進行編輯</li>
+                <li><strong>刪除玩家</strong>：長按玩家名稱，選擇刪除</li>
+                <li><strong>調整順序</strong>：長按拖拽調整玩家順序</li>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h3>如何查看遊戲統計？</h3>
+            <p>在「統計」頁面中可以查看：</p>
+            <ul>
+                <li>每局遊戲的總時間</li>
+                <li>每位玩家的平均用時</li>
+                <li>最快/最慢的回合記錄</li>
+                <li>遊戲歷史記錄</li>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h3>計時器沒有聲音怎麼辦？</h3>
+            <p>請檢查以下設定：</p>
+            <ul>
+                <li>確認手機未開啟靜音模式</li>
+                <li>檢查應用程式內的聲音設定</li>
+                <li>確認手機音量足夠大</li>
+                <li>在 iOS 設定中允許應用程式使用音效</li>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h3>如何切換深色/淺色主題？</h3>
+            <p>在「設定」頁面中：</p>
+            <ul>
+                <li>選擇「外觀」選項</li>
+                <li>可選擇「淺色」、「深色」或「跟隨系統」</li>
+                <li>變更會立即生效</li>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h3>如何重置所有設定？</h3>
+            <p>在「設定」頁面最底部：</p>
+            <ul>
+                <li>點擊「重置所有設定」</li>
+                <li>確認操作（此動作無法復原）</li>
+                <li>應用程式會回到初始狀態</li>
+            </ul>
+        </div>
+
+        <h2>✨ 功能特色</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <h4>⏰ 靈活計時</h4>
+                <p>30-300秒自訂時間</p>
+            </div>
+            <div class="feature-item">
+                <h4>👥 多人支援</h4>
+                <p>最多8名玩家同時遊戲</p>
+            </div>
+            <div class="feature-item">
+                <h4>🔔 智慧提醒</h4>
+                <p>30秒、10秒雙重警告</p>
+            </div>
+            <div class="feature-item">
+                <h4>📊 數據統計</h4>
+                <p>詳細的遊戲分析</p>
+            </div>
+            <div class="feature-item">
+                <h4>🎨 美觀界面</h4>
+                <p>支援深色/淺色主題</p>
+            </div>
+            <div class="feature-item">
+                <h4>🌍 多語言</h4>
+                <p>繁中/簡中/英文</p>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>📧 技術支援</h2>
+            <p>如果上述解答無法解決您的問題，歡迎聯絡我們的技術支援團隊：</p>
+            
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <h4>📧 電子郵件</h4>
+                    <p><a href="mailto:support@rummytimer.app">support@rummytimer.app</a></p>
+                    <p><small>24小時內回覆</small></p>
+                </div>
+                
+                <div class="contact-method">
+                    <h4>🐛 問題回報</h4>
+                    <p><a href="https://github.com/WaterGGAI/rummy-timer/issues">GitHub Issues</a></p>
+                    <p><small>開發者直接回覆</small></p>
+                </div>
+            </div>
+
+            <h3>📋 回報問題時請提供：</h3>
+            <ul>
+                <li>您的 iOS 版本</li>
+                <li>應用程式版本</li>
+                <li>問題的詳細描述</li>
+                <li>重現問題的步驟</li>
+                <li>如果可能，請提供螢幕截圖</li>
+            </ul>
+        </div>
+
+        <h2>🔐 隱私與安全</h2>
+        <p>我們重視您的隱私：</p>
+        <ul>
+            <li>✅ 完全離線運作，不收集任何個人資料</li>
+            <li>✅ 所有資料僅儲存在您的裝置</li>
+            <li>✅ 查看完整<a href="privacy-policy.html">隱私權政策</a></li>
+        </ul>
+
+        <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center;">
+            <p><strong>感謝您使用 Rummy Timer！</strong></p>
+            <p><small>我們致力於提供最佳的用戶體驗，您的反饋對我們非常重要。</small></p>
+        </footer>
+    </div>
+</body>
+</html>
